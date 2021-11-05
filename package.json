@@ -3,7 +3,7 @@
     "postinstall": "remix setup node",
     "build": "remix build",
     "dev": "remix dev",
-    "start": "cross-env NODE_ENV=production remix-serve build"
+    "start": "cross-env NODE_ENV=production remix-serve ./build"
   },
   "dependencies": {
     "@remix-run/react": "^0.20.1",
